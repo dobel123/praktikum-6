@@ -1,6 +1,6 @@
 # Labpy.05/Pratikum05
-# NAMA  = DZAKI ARIF RAHMAN
-# NIM   = 312410312
+# NAMA  = DONI SAPUTRA
+# NIM   = 312410325
 # KELAS = TI.24.A4
 
 
@@ -185,5 +185,5 @@ Daftar Nilai
 ======================================================================
 
 ## screenshout output VSC
-![Cuplikan layar 2024-11-19 135614](https://github.com/user-attachments/assets/2bb4c369-2922-4eb6-94ca-bdc9ed76c17d)
+![Cuplikan layar 2024-11-19 135614](https://github.com/user-attachments/assets/1e92393a-9110-4c73-ab06-8a06a6fc4104)
 
