@@ -20,7 +20,7 @@ Nilai akhir pelajar dihitung berdasarkan bobot sebagai berikut:
 ### 1. Struktur Data
 Data siswa disimpan dalam daftar bernama data_list, yang berisi elemen kamus. Setiap kamus mewakili satu pelajar dengan format berikut:
 
-python
+```python
 {
     'Nama': 'Nama Mahasiswa',
     'NIM': 'NIM Mahasiswa',
@@ -29,7 +29,7 @@ python
     'UAS': 85.0,    # Nilai UAS
     'Nilai Akhir': 81.5  # Hasil perhitungan nilai akhir
 }
-
+```
 
 ### 2. Fungsi-Fungsi Utama
 
@@ -44,7 +44,7 @@ def oi_final_grade(tugas, uts, uas):
 
 #### lihat_data()
 Fungsi ini menampilkan seluruh data siswa dalam format tabel. Jika data kosong, ditampilkan pesan "Tidak ada data!".
-python
+```python
 def lihat_data():
     if not data_list:
         print("\nTidak ada data!")
@@ -58,10 +58,10 @@ def lihat_data():
                   f"{student['Tugas']:<8.2f} | {student['UTS']:<8.2f} | {student['UAS']:<8.2f} | "
                   f"{student['Nilai Akhir']:<8.2f} |")
         print("=" * 70)
-
+```
 #### tambah_data()
 Fungsi ini meminta pengguna untuk memasukkan data siswa baru, seperti Nama, NIM, dan nilai-nilai (Tugas, UTS, UAS). Nilai akhir dihitung menggunakan oi_final_grade, kemudian data dimasukkan ke dalam data_list.
-python
+```python
 def tambah_data():
     Nama = input("Nama: ")
     NIM = input("NIM: ")
@@ -79,10 +79,10 @@ def tambah_data():
     }
     data_list.append(mahasiswa_data)
     print("\nData berhasil ditambahkan!")
-
+````
 #### ubah_data()
 Fungsi ini memungkinkan pengguna untuk memperbarui data siswa berdasarkan nomor urut. Setelah memilih nomor data, pengguna dapat memasukkan data baru. Nilai akhir diperbarui secara otomatis.
-python
+````python
 def ubah_data():
     lihat_data()
     index = int(input("\nPilih nomor data yang ingin diubah: ")) - 1
@@ -101,10 +101,11 @@ def ubah_data():
         print("\nData berhasil diubah!")
     else:
         print("\nNomor data tidak ditemukan!")
-
+```
 #### hapus_data()
 Fungsi ini memungkinkan pengguna untuk menghapus data siswa berdasarkan nomor urut. Data akan dihapus dari daftar data_list.
 python
+```PYTHON
 def hapus_data():
     lihat_data()
     index = int(input("\nPilih nomor data yang ingin dihapus: ")) - 1
@@ -113,10 +114,11 @@ def hapus_data():
         print("\nData berhasil dihapus!")
     else:
         print("\nNomor data tidak ditemukan!")
-
+````
 #### cari_data()
 Fungsi ini mencari data siswa berdasarkan Nama atau NIM. Jika ditemukan, data yang sesuai akan ditampilkan dalam tabel. Jika tidak ditemukan, ditampilkan pesan "Data tidak ditemukan!".
 python
+```PYTHON
 def cari_data():
     keyword = input("Masukkan NIM atau Nama yang ingin dicari: ").lower()
     found = [data for data in data_list if keyword in data['NIM'].lower() or keyword in data['Nama'].lower()]
@@ -132,17 +134,17 @@ def cari_data():
         print("=" * 70)
     else:
         print("\nData tidak ditemukan!")
-
+````
 ### 3. Program Utama (Menu Loop)
 Menu program utama memungkinkan pengguna untuk memilih fitur melalui input:
-
+```PYTHON
 - *L*: Melihat data.
 - *T*: Menambahkan data.
 - *U*: Mengubah data.
 - *H*: Menghapus data.
 - *C*: Mencari data.
 - *K*: Keluar dari program.
-
+````
 Program terus berjalan hingga pengguna memilih opsi *K*.
 python
 while True:
