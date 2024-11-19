@@ -208,3 +208,6 @@ SAPUTRA
 ## screenshout output VSC
 ![Cuplikan layar 2024-11-19 135614](https://github.com/user-attachments/assets/1e92393a-9110-4c73-ab06-8a06a6fc4104)
 
+## DAN FLOWCHARTNYA
+![WhatsApp Image 2024-11-19 at 13 52 17](https://github.com/user-attachments/assets/536b5daa-9c57-41b9-b673-c48ca2c8f28f)
+
