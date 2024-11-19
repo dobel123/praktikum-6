@@ -185,4 +185,5 @@ Daftar Nilai
 ======================================================================
 
 ## screenshout output VSC
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/87fdfe55-bcaa-4147-ac30-08aae8f864d4">
+![Cuplikan layar 2024-11-19 135614](https://github.com/user-attachments/assets/2bb4c369-2922-4eb6-94ca-bdc9ed76c17d)
+
