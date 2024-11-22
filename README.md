@@ -1,4 +1,4 @@
-# Labpy.05/Pratikum05
+# Labpy.06/Pratikum06
 # NAMA  = DONI SAPUTRA
 # NIM   = 312410325
 # KELAS = TI.24.A4
